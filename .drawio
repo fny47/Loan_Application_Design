@@ -1,9 +1,363 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="Page-1" id="PrRy0D3EFyCYgixkc5Fb">
-    <mxGraphModel>
+    <mxGraphModel dx="1277" dy="692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="In88rvxkoNvKmn4MkPqW-56" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="90" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-57" value="Register" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="250" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-58" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Register Page&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="51" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-59" value="user_id&lt;br&gt;&lt;div&gt;No tlp:&lt;/div&gt;&lt;div&gt;Email:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Password:&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-60" value="&lt;div&gt;- user_id: Harus unik, tidak boleh duplikat.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Nomor telepon: Hanya dapat berisi angka, dengan panjang maksimal 13 digit.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Email: Wajib sesuai dengan format email yang valid (contoh: user@example.com).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Password: Minimal terdiri dari 6 karakter.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-62" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="435" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-63" value="Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="596" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-64" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Login&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="396" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-65" value="user_id&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;Password:&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="485" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-66" value="&lt;div&gt;- user_id: Harus unik, tidak boleh duplikat.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Password: Minimal terdiri dari 6 karakter.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="485" width="315" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-67" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="789" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-68" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Home&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="750" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-69" value="Buat Pinjaman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="840" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-70" value="Daftar pinjaman dan tagihan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="840" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-71" value="Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="920" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-72" value="Simulasi Pinjaman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="920" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-73" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.bell;" vertex="1" parent="1">
+          <mxGeometry x="232" y="800" width="24" height="23.099999999999998" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-74" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="796.05" width="25" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-75" value="Budi" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="121" y="800.05" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-76" value="&lt;div&gt;-Ikon Profile dapat diklik dan akan mengarahkan pengguna ke halaman profil.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Ikon Bell (Notifikasi) menampilkan status pengajuan atau pembayaran. Notifikasi akan hilang setelah diklik, namun tidak mengarahkan ke halaman detail terkait.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Menu &quot;Buat Pinjaman&quot; dapat diklik untuk memulai proses pengajuan pinjaman.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Menu &quot;Daftar Pinjaman dan Tagihan&quot; dapat diklik untuk melihat pinjaman yang aktif dan riwayat tagihan.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Halaman Profil memungkinkan pengguna untuk memperbarui data pribadi dan mengakses pengaturan akun.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Menu &quot;Simulasi Pinjaman&quot; dapat diklik untuk menampilkan simulasi pinjaman berdasarkan nominal, tenor, dan bunga.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="804" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-77" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1119" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-78" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="1310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-79" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Buat Pinjaman&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1080" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-80" value="Nominal peminjaman:&lt;div&gt;Jangka waktu peminjaman:&lt;/div&gt;&lt;div&gt;Jumlah pembayaran:&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1150" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-82" value="&lt;span style=&quot;text-align: left;&quot;&gt;Tampilan simulasi pinjaman berserta dengan bunga&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="1224" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-83" value="&lt;div&gt;-Nominal pinjaman maksimal adalah Rp12.000.000, termasuk total dari pinjaman yang masih aktif sebelumnya.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Jangka waktu pinjaman dapat dipilih melalui dropdown dengan pilihan dari 1 hingga 12 bulan.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Jumlah cicilan merupakan jumlah angsuran yang ingin diambil oleh nasabah, dapat dipilih melalui dropdown dengan opsi 3x, 6x, atau 12x pembayaran.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Halaman ini menampilkan simulasi perhitungan pinjaman, termasuk:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Total pinjaman yang diajukan&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Bunga yang dikenakan&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Jumlah angsuran bulanan yang harus dibayarkan oleh nasabah&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1119" width="530" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-84" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1469" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-86" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Daftar Pinjaman Dan Tagihan&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1430" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-89" value="List Pinjaman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-90" value="List Tagihan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-92" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1799" width="250" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-94" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;List Pinjaman&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="1760" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-97" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1850" width="209" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-98" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-97">
+          <mxGeometry width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-99" value="id_pinjaman" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-98">
+          <mxGeometry width="69" height="30" as="geometry">
+            <mxRectangle width="69" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-100" value="amount" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-98">
+          <mxGeometry x="69" width="62" height="30" as="geometry">
+            <mxRectangle width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-101" value="status" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-98">
+          <mxGeometry x="131" width="78" height="30" as="geometry">
+            <mxRectangle width="78" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-97">
+          <mxGeometry y="30" width="209" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-103" value="Value 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-102">
+          <mxGeometry width="69" height="28" as="geometry">
+            <mxRectangle width="69" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-104" value="Value 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-102">
+          <mxGeometry x="69" width="62" height="28" as="geometry">
+            <mxRectangle width="62" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-105" value="Value 3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-102">
+          <mxGeometry x="131" width="78" height="28" as="geometry">
+            <mxRectangle width="78" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-106" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-97">
+          <mxGeometry y="58" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-107" value="Value 4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-106">
+          <mxGeometry width="69" height="26" as="geometry">
+            <mxRectangle width="69" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-108" value="Value 5" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-106">
+          <mxGeometry x="69" width="62" height="26" as="geometry">
+            <mxRectangle width="62" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-109" value="Value 6" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-106">
+          <mxGeometry x="131" width="78" height="26" as="geometry">
+            <mxRectangle width="78" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-110" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-97">
+          <mxGeometry y="84" width="209" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-111" value="Value 7" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-110">
+          <mxGeometry width="69" height="30" as="geometry">
+            <mxRectangle width="69" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-112" value="Value 8" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-110">
+          <mxGeometry x="69" width="62" height="30" as="geometry">
+            <mxRectangle width="62" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-113" value="Value 9" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-110">
+          <mxGeometry x="131" width="78" height="30" as="geometry">
+            <mxRectangle width="78" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-114" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-97">
+          <mxGeometry y="114" width="209" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-115" value="Value 10" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-114">
+          <mxGeometry width="69" height="26" as="geometry">
+            <mxRectangle width="69" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-116" value="Value 11" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-114">
+          <mxGeometry x="69" width="62" height="26" as="geometry">
+            <mxRectangle width="62" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-117" value="Value 12" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-114">
+          <mxGeometry x="131" width="78" height="26" as="geometry">
+            <mxRectangle width="78" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-118" value="&lt;div&gt;- Daftar Pinjaman menampilkan seluruh pinjaman yang pernah diajukan, lengkap dengan status masing-masing.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Daftar Tagihan menampilkan informasi berupa ID pinjaman, jumlah tagihan yang harus dibayarkan, status pembayaran, dan tanggal jatuh tempo. Serta ada button untuk membayar tagihan tersebut&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1460" width="530" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-119" value="&lt;div&gt;- Daftar Pinjaman menampilkan seluruh pinjaman yang pernah diajukan, lengkap dengan status masing-masing.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1790" width="470" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-120" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="2150" width="285" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-121" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="2201" width="185" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-122" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-121">
+          <mxGeometry width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-123" value="id_pinjaman" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-122">
+          <mxGeometry width="61" height="30" as="geometry">
+            <mxRectangle width="61" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-124" value="amount" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-122">
+          <mxGeometry x="61" width="55" height="30" as="geometry">
+            <mxRectangle width="55" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-125" value="status" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-122">
+          <mxGeometry x="116" width="69" height="30" as="geometry">
+            <mxRectangle width="69" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-126" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-121">
+          <mxGeometry y="30" width="185" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-127" value="Value 1" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-126">
+          <mxGeometry width="61" height="28" as="geometry">
+            <mxRectangle width="61" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-128" value="Value 2" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-126">
+          <mxGeometry x="61" width="55" height="28" as="geometry">
+            <mxRectangle width="55" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-129" value="Value 3" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-126">
+          <mxGeometry x="116" width="69" height="28" as="geometry">
+            <mxRectangle width="69" height="28" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-130" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-121">
+          <mxGeometry y="58" width="185" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-131" value="Value 4" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-130">
+          <mxGeometry width="61" height="26" as="geometry">
+            <mxRectangle width="61" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-132" value="Value 5" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-130">
+          <mxGeometry x="61" width="55" height="26" as="geometry">
+            <mxRectangle width="55" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-133" value="Value 6" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-130">
+          <mxGeometry x="116" width="69" height="26" as="geometry">
+            <mxRectangle width="69" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-134" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-121">
+          <mxGeometry y="84" width="185" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-135" value="Value 7" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-134">
+          <mxGeometry width="61" height="30" as="geometry">
+            <mxRectangle width="61" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-136" value="Value 8" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-134">
+          <mxGeometry x="61" width="55" height="30" as="geometry">
+            <mxRectangle width="55" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-137" value="Value 9" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;fontStyle=0;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-134">
+          <mxGeometry x="116" width="69" height="30" as="geometry">
+            <mxRectangle width="69" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-138" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;strokeColor=inherit;fillColor=#EAF2D3;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-121">
+          <mxGeometry y="114" width="185" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-139" value="Value 10" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-138">
+          <mxGeometry width="61" height="26" as="geometry">
+            <mxRectangle width="61" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-140" value="Value 11" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-138">
+          <mxGeometry x="61" width="55" height="26" as="geometry">
+            <mxRectangle width="55" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-141" value="Value 12" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;whiteSpace=wrap;html=1;" vertex="1" parent="In88rvxkoNvKmn4MkPqW-138">
+          <mxGeometry x="116" width="69" height="26" as="geometry">
+            <mxRectangle width="69" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-142" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;List Tagihan&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="2110" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-143" value="bayar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2230" width="41" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-144" value="bayar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2260" width="41" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-145" value="bayar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="2290" width="41" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-146" value="bayar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2316" width="41" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-147" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Daftar Tagihan menampilkan informasi berupa ID pinjaman, jumlah tagihan yang harus dibayarkan, status pembayaran, dan tanggal jatuh tempo. Serta ada button untuk membayar tagihan tersebut&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2107.5" width="420" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-148" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="2450" width="217.5" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-149" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Pembayaran&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="112" y="2410" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-151" value="Jumlah yang harus di bayar:&amp;nbsp;&lt;div&gt;Tanggal jatuh tempo:&amp;nbsp;&lt;/div&gt;&lt;div&gt;Metode pembayaran:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="2490" width="204" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-152" value="Submit" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147" y="2580" width="85" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-153" value="&lt;div&gt;- Jumlah yang harus dibayarkan akan terisi otomatis (default) berdasarkan ID tagihan.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Tanggal jatuh tempo juga akan terisi secara otomatis sesuai data tagihan.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Metode pembayaran tersedia dalam bentuk dropdown pilihan.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2495" width="399" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-154" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99.5" y="2749" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-155" value="Buat Pinjaman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2910" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-156" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Simulasi Pinjaman&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="104.5" y="2710" width="165.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-158" value="&lt;span style=&quot;text-align: left;&quot;&gt;Tampilan simulasi pinjaman berserta dengan bunga&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="2810" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-159" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Halaman ini menampilkan simulasi perhitungan pinjaman, termasuk:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Total pinjaman yang diajukan&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Bunga yang dikenakan&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Jumlah angsuran bulanan yang harus dibayarkan oleh nasabah&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Terdapat button untuk langsung mengarah ke arah pembuatan pinjaman&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="299" y="2760" width="530" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-163" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="3089" width="190" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-164" value="Update" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.25" y="3250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-165" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Profile&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="3050" width="165.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-167" value="&lt;div&gt;nama:&amp;nbsp;&lt;/div&gt;&lt;div&gt;email:&amp;nbsp;&lt;/div&gt;&lt;div&gt;no tlp:&lt;/div&gt;&lt;div&gt;nik:&lt;/div&gt;&lt;div&gt;alamat:&amp;nbsp;&lt;/div&gt;&lt;div&gt;tempat lahir:&lt;/div&gt;&lt;div&gt;tanggal lahir:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.75" y="3120" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="In88rvxkoNvKmn4MkPqW-168" value="&lt;div&gt;Halaman Profil menampilkan data diri nasabah yang wajib dilengkapi sebelum dapat mengajukan pinjaman.&lt;/div&gt;&lt;div&gt;Setelah pengisian data diri selesai, pengguna juga akan diminta untuk mengunggah dokumen pendukung, seperti KTP.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Validasi:&lt;/div&gt;&lt;div&gt;Seluruh field data diri (nama, alamat, tanggal lahir, dll) harus terisi lengkap.&lt;/div&gt;&lt;div&gt;Format KTP:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;-Hanya mendukung format .jpg, .jpeg, atau .png&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Ukuran file maksimal 5MB&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Unggah dokumen wajib&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="295" y="3100" width="530" height="240" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
